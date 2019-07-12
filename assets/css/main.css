@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+@font-face {
+    font-family: 'typicons';
+    src: url("../webfont/typicons.eot");
+    src: url("../webfont/typicons.eot?#iefix") format('embedded-opentype'),
+         url("../webfont/typicons.woff") format('woff'),
+         url("../webfont/typicons.ttf") format('truetype'),
+         url("../webfont/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+#particles-js {
+    background: #1A222C;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: table; 
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.jumbotron {
+    padding: 0;
+    background: none;
+    color: white;
+}
+
+h1, h3, p {
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.links {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.links .typcn {
+    font-size: 4rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.fbtn {
+    background-color: white;
+    color: #1A222C;
+}
+
+a[href$=".pdf"] {
+    color: white;
+}
+
+a[href$=".pdf"]:hover {
+    color: white;
+}
+
+.foot {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .display-3 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    .links {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .links .typcn {
+        font-size: 3rem;
+    }
+
+    .foot {
+        font-size: 0.6rem;
+    }
+  }
