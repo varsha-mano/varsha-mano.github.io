@@ -128,8 +128,8 @@ a[href$=".pdf"]:hover {
 
     p {
         font-size: 1rem;
-        color: red;
     }
+    
     .links {
         width: 70%;
         margin: 0 auto;
